@@ -39,7 +39,7 @@ class Computer():
         while True:
             i = random.randint(0,2)
             j = random.randint(0,2)
-            if s.gioca(i,j,self.symbol):
+            if self.s.gioca(i,j,self.symbol):
                 return [i,j]
 
 class Player():
