@@ -1,4 +1,4 @@
-# classe scacchiera
+# classe scacchiera 2
 class Scacchiera():
     def __init__(self):
         self.s = [[0,0,0],
